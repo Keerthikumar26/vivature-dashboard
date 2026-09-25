@@ -1,0 +1,1 @@
+export interface Phase3Data { zone_id: string; grid_count: number; avg_ndvi: number; severity: string; area: number; center_lat: number; center_lon: number; lat?: number; lon?: number; ndvi?: number; [key: string]: any; }

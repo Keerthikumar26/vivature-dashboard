@@ -1,0 +1,1 @@
+export interface Phase2Data { grid_id: string; lat: number; lon: number; ndvi: number; ndre: number; vegetation_ratio: number; health_classification: string; severity_level: string; avg_ndvi?: number; avg_ndre?: number; [key: string]: any; }

@@ -1,0 +1,1 @@
+export interface Phase1Data { grid_id: string; ndvi: number; ndre: number; vegetation_ratio: number; health_classification: string; severity_level: string; avg_ndvi?: number; avg_ndre?: number; [key: string]: any; }
