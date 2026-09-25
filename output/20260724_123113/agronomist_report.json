@@ -1,0 +1,21 @@
+{
+    "mission_id": "20260724_123113",
+    "timestamp": "2026-07-24T12:31:54.659082",
+    "crop_health_summary": {
+        "overall_health_score": 53.0,
+        "health_status": "Fair",
+        "stress_percentage": 11.0,
+        "average_ndvi": 0.53
+    },
+    "yield_risk_assessment": {
+        "severity": "Medium",
+        "description": "Moderate stress localized in specific zones. Targeted application recommended."
+    },
+    "actionable_recommendations": [
+        {
+            "type": "Resource Allocation",
+            "priority": "High",
+            "message": "Prepare 12.8 Liters of agrochemical solution (including 2L buffer) for the automated spray mission."
+        }
+    ]
+}
