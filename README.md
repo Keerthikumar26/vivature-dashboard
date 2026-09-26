@@ -50,7 +50,7 @@ npm run dev
 npm.cmd run dev
 ```
 
-Dashboard: http://localhost:5173
+Dashboard: 
 
 ### Environment
 

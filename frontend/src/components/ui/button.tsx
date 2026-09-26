@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn"
 
 interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "default" | "outline" | "ghost" | "destructive" | "secondary"
+  variant?: "default" | "outline" | "ghost" | "destructive" | "secondary" | "secondary"
   size?: "default" | "sm" | "lg" | "icon"
 }
 
