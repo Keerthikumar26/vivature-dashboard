@@ -1,4 +1,3 @@
-import React from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import { Phase4Data } from '@/types';
@@ -10,7 +9,7 @@ interface WaypointMarkerProps {
 const createNumberedIcon = (num: number, color: string = '#3b82f6') => {
   return L.divIcon({
     className: 'custom-waypoint-marker',
-    html: <div style="background-color:  + color + ; color: white; width: 24px; height: 24px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;"> + num + </div>,
+    html: `<div style="background-color: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;">${num}</div>`, 
     iconSize: [24, 24],
     iconAnchor: [12, 12],
     popupAnchor: [0, -12]

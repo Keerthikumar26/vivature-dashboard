@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useMemo } from 'react'
+import React from 'react'
+import { useEffect, useState, useMemo } from "react"
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card'
 import { MetricGrid } from '@/components/common/MetricGrid'
 import { SummaryCard } from '@/components/common/SummaryCard'
@@ -21,7 +22,7 @@ import {
 
 const RechartsLoaded = true;
 
-// ── Chart components ─────────────────────
+// ââ Chart components âââââââââââââââââââââ
 
 const ChartBox = ({ children }: { children: React.ReactNode }) => <>{children}</>
 
@@ -97,7 +98,7 @@ const SprayAreaChart = React.memo(({ data }: { data: any[] }) => {
   )
 })
 
-// ── Page ──────────────────────────────────────────────────────────────────────
+// ââ Page ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 export default function Analytics() {
   const [allData, setAllData] = useState<any>({ p1: [], p2: [], p3: [], p4: [], p5: [] })
@@ -190,7 +191,7 @@ export default function Analytics() {
   if (loading) return (
     <div className="flex items-center justify-center h-64">
       <Loader2 className="w-8 h-8 animate-spin text-slate-400" />
-      <span className="ml-3 text-slate-500">Loading analytics…</span>
+      <span className="ml-3 text-slate-500">Loading analyticsâ¦</span>
     </div>
   )
 

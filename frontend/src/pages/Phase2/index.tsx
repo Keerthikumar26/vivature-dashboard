@@ -1,6 +1,6 @@
 import { useMission } from '../../contexts/MissionContext'
-import React, { useMemo, useState } from 'react'
-import { AlertCircle, RefreshCcw, Map as MapIcon, Activity, Sprout } from 'lucide-react'
+import { useMemo, useState } from "react"
+import { AlertCircle, RefreshCcw, Map as MapIcon, Sprout } from 'lucide-react'
 import { Phase2Service } from '@/services/api/phase2Service'
 import { useApi } from '@/hooks/useApi'
 import { calcMean } from '@/utils/statistics'
@@ -65,7 +65,7 @@ export default function Phase2() {
   return (
     <div className="space-y-6 pb-10">
       <header>
-        <h2 className="text-3xl font-bold tracking-tight">Phase 2 � GPS Mapping</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Phase 2 Â GPS Mapping</h2>
         <p className="text-slate-500 mt-1">Visualization of georeferenced crop health locations.</p>
       </header>
 

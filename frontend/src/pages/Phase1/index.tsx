@@ -1,5 +1,5 @@
 import { useMission } from '../../contexts/MissionContext'
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from "react"
 import { AlertCircle, RefreshCcw, Sprout, Activity, ArrowDownToLine, ArrowUpToLine } from 'lucide-react'
 import { Phase1Service } from '@/services/api/phase1Service'
 import { useApi } from '@/hooks/useApi'
@@ -58,7 +58,7 @@ export default function Phase1() {
   return (
     <div className="space-y-6 pb-10">
       <header>
-        <h2 className="text-3xl font-bold tracking-tight">Phase 1 – Crop Health Analysis</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Phase 1 Â– Crop Health Analysis</h2>
         <p className="text-slate-500 mt-1">Visualization of multispectral crop health metrics generated from the Phase 1 pipeline.</p>
       </header>
 

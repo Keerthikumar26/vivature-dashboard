@@ -11,8 +11,8 @@ export const calculateBounds = (validPoints: any[], latKey: string = 'lat', lonK
   const lats = validPoints.map(d => d[latKey]);
   const lons = validPoints.map(d => d[lonKey]);
   return [
-    [Math.min(...lats), Math.min(...lons)],
-    [Math.max(...lats), Math.max(...lons)]
+    [Math.min(...lats), Math.min(...lons)] as [number, number],
+    [Math.max(...lats), Math.max(...lons)] as [number, number]
   ];
 }
 

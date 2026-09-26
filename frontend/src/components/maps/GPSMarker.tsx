@@ -14,7 +14,7 @@ const getMarkerColor = (health: string, severity: string) => {
 const createCustomIcon = (color: string) => {
   return L.divIcon({
     className: 'custom-gps-marker',
-    html: <div style="background-color:  + color + ; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 2px rgba(0,0,0,0.5);"></div>,
+    html: `<div style="background-color: ${color}; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 2px rgba(0,0,0,0.5);"></div>`, 
     iconSize: [12, 12],
     iconAnchor: [6, 6],
     popupAnchor: [0, -6]

@@ -1,6 +1,6 @@
-﻿import { useMission } from '../../contexts/MissionContext'
-import React, { useMemo } from 'react'
-import { AlertCircle, RefreshCcw, Map as MapIcon, Download, Navigation, Route, Clock, ArrowUpToLine, ArrowDownToLine, FileText } from 'lucide-react'
+import { useMission } from '../../contexts/MissionContext'
+import { useMemo } from "react"
+import { AlertCircle, RefreshCcw, Map as MapIcon, Download, Route, Clock, ArrowUpToLine, ArrowDownToLine, FileText } from 'lucide-react'
 import { Phase6Service } from '@/services/api/phase6Service'
 import { useApi } from '@/hooks/useApi'
 import { calcMean, calcMax, calcMin } from '@/utils/statistics'
@@ -74,7 +74,7 @@ export default function Phase6() {
     <div className="space-y-6 pb-10">
       <header className="flex justify-between items-center">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight">Phase 6 – Mission Planner</h2>
+          <h2 className="text-3xl font-bold tracking-tight">Phase 6 Ã¢ÂÂ Mission Planner</h2>
           <p className="text-slate-500 mt-1">Mission export and waypoint visualization compatible with UAV ground control software.</p>
         </div>
         <Button onClick={handleDownload} className="bg-blue-600 hover:bg-blue-700">

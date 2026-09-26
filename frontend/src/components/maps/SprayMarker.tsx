@@ -1,4 +1,3 @@
-import React from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import { Phase5Data } from '@/types';
 import { createDivIcon } from './MarkerFactory';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Polyline } from 'react-leaflet';
 import { Phase4Data } from '@/types';
 

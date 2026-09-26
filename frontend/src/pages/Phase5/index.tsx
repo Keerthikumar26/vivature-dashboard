@@ -1,5 +1,5 @@
-﻿import { useMission } from '../../contexts/MissionContext'
-import React, { useMemo, useState } from 'react'
+import { useMission } from '../../contexts/MissionContext'
+import { useMemo, useState } from "react"
 import { AlertCircle, RefreshCcw, Droplets, Target, Timer, ArrowUpToLine, ArrowDownToLine, Navigation } from 'lucide-react'
 import { Phase5Service } from '@/services/api/phase5Service'
 import { useApi } from '@/hooks/useApi'
@@ -86,7 +86,7 @@ export default function Phase5() {
   return (
     <div className="space-y-6 pb-10">
       <header>
-        <h2 className="text-3xl font-bold tracking-tight">Phase 5 � Variable Rate Spray Mission</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Phase 5 ï¿½ Variable Rate Spray Mission</h2>
         <p className="text-slate-500 mt-1">Visualization of the optimized variable-rate spraying mission generated from the stress-zone analysis.</p>
       </header>
 

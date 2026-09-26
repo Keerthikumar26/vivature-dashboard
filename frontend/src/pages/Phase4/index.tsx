@@ -1,5 +1,5 @@
-﻿import { useMission } from '../../contexts/MissionContext'
-import React, { useMemo, useState } from 'react'
+import { useMission } from '../../contexts/MissionContext'
+import { useMemo } from 'react'
 import { AlertCircle, RefreshCcw, Map as MapIcon, Navigation, Route, Clock, ArrowUpToLine, ArrowDownToLine, CheckCircle2 } from 'lucide-react'
 import { Phase4Service } from '@/services/api/phase4Service'
 import { useApi } from '@/hooks/useApi'
@@ -65,7 +65,7 @@ export default function Phase4() {
   return (
     <div className="space-y-6 pb-10">
       <header>
-        <h2 className="text-3xl font-bold tracking-tight">Phase 4 � Coverage Path Planning</h2>
+        <h2 className="text-3xl font-bold tracking-tight">Phase 4 ï¿½ Coverage Path Planning</h2>
         <p className="text-slate-500 mt-1">Visualization of optimized UAV flight path generated for spraying operations.</p>
       </header>
 
@@ -89,7 +89,7 @@ export default function Phase4() {
               { label: 'Max Altitude', value: metrics.maxAltitude.toFixed(1) + ' m', icon: <ArrowUpToLine className="h-4 w-4"/> },
               { label: 'Min Altitude', value: metrics.minAltitude.toFixed(1) + ' m', icon: <ArrowDownToLine className="h-4 w-4"/> },
               { label: 'Est Flight Time', value: metrics.estTimeMins.toFixed(1) + ' min', icon: <Clock className="h-4 w-4"/> },
-              { label: 'Coverage Area', value: metrics.coverageArea.toFixed(0) + ' m�' }
+              { label: 'Coverage Area', value: metrics.coverageArea.toFixed(0) + ' mï¿½' }
             ]}
           />
         </div>

@@ -24,3 +24,19 @@ export interface Phase7Data {
     message: string;
   }[];
 }
+
+
+// Generic API response types used by the dashboard service wrappers.
+export interface ApiResponse {
+  [key: string]: any;
+}
+
+export interface DashboardResponse {
+  [key: string]: any;
+}
+
+export type PhaseResponse = any[];
+
+export interface SettingsResponse {
+  [key: string]: any;
+}

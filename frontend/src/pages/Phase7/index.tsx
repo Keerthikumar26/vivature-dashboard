@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Brain, Activity, ShieldAlert, ListChecks, CheckCircle2, AlertTriangle, AlertOctagon } from 'lucide-react'
 import { Phase7Service } from '@/services/api/phase7Service'
 import { useMission } from '@/contexts/MissionContext'
